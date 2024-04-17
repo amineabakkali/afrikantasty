@@ -1,0 +1,4 @@
+#Mon Apr 08 07:24:50 CEST 2024
+base.0=D\:\\Amine\\afrikantasty\\customer-app-dar_30_03_2024\\customer-app-dar\\customer-app\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

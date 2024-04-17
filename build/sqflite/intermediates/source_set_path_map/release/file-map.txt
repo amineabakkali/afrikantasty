@@ -1,0 +1,12 @@
+com.tekartik.sqflite-jetified-window-java-1.0.0-beta04-0 C:\Users\GE\.gradle\caches\transforms-3\29517b5ba912f9689907c39dbb352d3a\transformed\jetified-window-java-1.0.0-beta04\res
+com.tekartik.sqflite-jetified-window-1.0.0-beta04-1 C:\Users\GE\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\res
+com.tekartik.sqflite-core-1.6.0-2 C:\Users\GE\.gradle\caches\transforms-3\6d3237bc319e7b967918f32c402a8d45\transformed\core-1.6.0\res
+com.tekartik.sqflite-jetified-annotation-experimental-1.1.0-3 C:\Users\GE\.gradle\caches\transforms-3\f0ced427c4d770421a04aafb9ab9aa25\transformed\jetified-annotation-experimental-1.1.0\res
+com.tekartik.sqflite-main-4 C:\Users\GE\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite-2.3.0\android\src\main\res
+com.tekartik.sqflite-release-5 C:\Users\GE\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite-2.3.0\android\src\release\res
+com.tekartik.sqflite-pngs-6 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\sqflite\generated\res\pngs\release
+com.tekartik.sqflite-resValues-7 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\sqflite\generated\res\resValues\release
+com.tekartik.sqflite-rs-8 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\sqflite\generated\res\rs\release
+com.tekartik.sqflite-mergeReleaseResources-9 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\sqflite\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.tekartik.sqflite-mergeReleaseResources-10 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\sqflite\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.tekartik.sqflite-merged_res-11 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\sqflite\intermediates\merged_res\release

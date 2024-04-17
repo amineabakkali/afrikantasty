@@ -1,0 +1,1 @@
+ D:\\Amine\\afrikantasty\\customer-app-dar_30_03_2024\\customer-app-dar\\customer-app\\.dart_tool\\flutter_build\\d6b4bc8f5f7438135f7f0c2bdac6d8ec\\native_assets.yaml: 

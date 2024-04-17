@@ -1,0 +1,12 @@
+com.alexmiller.map_launcher-jetified-window-java-1.0.0-beta04-0 C:\Users\GE\.gradle\caches\transforms-3\29517b5ba912f9689907c39dbb352d3a\transformed\jetified-window-java-1.0.0-beta04\res
+com.alexmiller.map_launcher-jetified-window-1.0.0-beta04-1 C:\Users\GE\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\res
+com.alexmiller.map_launcher-core-1.6.0-2 C:\Users\GE\.gradle\caches\transforms-3\6d3237bc319e7b967918f32c402a8d45\transformed\core-1.6.0\res
+com.alexmiller.map_launcher-jetified-annotation-experimental-1.1.0-3 C:\Users\GE\.gradle\caches\transforms-3\f0ced427c4d770421a04aafb9ab9aa25\transformed\jetified-annotation-experimental-1.1.0\res
+com.alexmiller.map_launcher-main-4 C:\Users\GE\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\main\res
+com.alexmiller.map_launcher-release-5 C:\Users\GE\AppData\Local\Pub\Cache\hosted\pub.dev\map_launcher-2.5.0+1\android\src\release\res
+com.alexmiller.map_launcher-pngs-6 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\generated\res\pngs\release
+com.alexmiller.map_launcher-resValues-7 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\generated\res\resValues\release
+com.alexmiller.map_launcher-rs-8 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\generated\res\rs\release
+com.alexmiller.map_launcher-mergeReleaseResources-9 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.alexmiller.map_launcher-mergeReleaseResources-10 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.alexmiller.map_launcher-merged_res-11 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_res\release

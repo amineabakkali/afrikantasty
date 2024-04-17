@@ -1,0 +1,674 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.afrikantasty.user"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:4:1-77
+11-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:4:18-74
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:5:1-63
+12-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:5:18-60
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:6:1-75
+13-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:6:18-72
+14    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+14-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:7:1-85
+14-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:7:18-82
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:8:1-64
+15-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:8:18-61
+16    <uses-permission android:name="android.hardware.location.gps" />
+16-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:9:1-65
+16-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:9:18-62
+17
+18    <queries>
+18-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:54:5-59:15
+19        <intent>
+19-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:55:9-58:18
+20            <action android:name="android.intent.action.VIEW" />
+20-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:56:13-65
+20-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:56:21-62
+21
+22            <data android:scheme="tel" />
+22-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:57:13-42
+22-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:57:19-39
+23        </intent>
+24        <intent>
+24-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-12:18
+25            <action android:name="android.support.customtabs.action.CustomTabsService" />
+25-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-90
+25-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:11:21-87
+26        </intent>
+27
+28        <package android:name="com.google.android.apps.maps" />
+28-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-64
+28-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-61
+29        <package android:name="com.google.android.apps.mapslite" />
+29-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:11:9-68
+29-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:11:18-65
+30        <package android:name="com.autonavi.minimap" />
+30-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-56
+30-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:12:18-53
+31        <package android:name="com.baidu.BaiduMap" />
+31-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-54
+31-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:13:18-51
+32        <package android:name="com.waze" />
+32-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-44
+32-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:14:18-41
+33        <package android:name="ru.yandex.yandexnavi" />
+33-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-56
+33-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:15:18-53
+34        <package android:name="ru.yandex.yandexmaps" />
+34-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-56
+34-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:16:18-53
+35        <package android:name="com.citymapper.app.release" />
+35-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-62
+35-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:17:18-59
+36        <package android:name="com.mapswithme.maps.pro" />
+36-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-59
+36-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:18:18-56
+37        <package android:name="net.osmand" />
+37-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-46
+37-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:19:18-43
+38        <package android:name="net.osmand.plus" />
+38-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-51
+38-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:20:18-48
+39        <package android:name="ru.dublgis.dgismobile" />
+39-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-57
+39-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:21:18-54
+40        <package android:name="com.tencent.map" />
+40-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-51
+40-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:22:18-48
+41        <package android:name="com.here.app.maps" />
+41-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:23:9-53
+41-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:23:18-50
+42        <package android:name="com.huawei.maps.app" />
+42-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-55
+42-->[:map_launcher] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\map_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:24:18-52
+43    </queries>
+44
+45    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+45-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
+45-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-76
+46    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+46-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-77
+46-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-74
+47    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+47-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+47-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
+48    <uses-permission android:name="android.permission.VIBRATE" />
+48-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-66
+48-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-63
+49    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+49-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-81
+49-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-78
+50    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+50-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-79
+50-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-76
+51    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+51-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:26:5-82
+51-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:26:22-79
+52
+53    <uses-feature
+53-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\GE\.gradle\caches\transforms-3\954d8db75cef988aba1a478993bcfeb4\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+54        android:glEsVersion="0x00020000"
+54-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\GE\.gradle\caches\transforms-3\954d8db75cef988aba1a478993bcfeb4\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+55        android:required="true" />
+55-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\GE\.gradle\caches\transforms-3\954d8db75cef988aba1a478993bcfeb4\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+56
+57    <permission
+57-->[androidx.core:core:1.10.1] C:\Users\GE\.gradle\caches\transforms-3\dc5b1733b493234eecba2c1dfa5bfc01\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+58        android:name="com.afrikantasty.user.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+58-->[androidx.core:core:1.10.1] C:\Users\GE\.gradle\caches\transforms-3\dc5b1733b493234eecba2c1dfa5bfc01\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+59        android:protectionLevel="signature" />
+59-->[androidx.core:core:1.10.1] C:\Users\GE\.gradle\caches\transforms-3\dc5b1733b493234eecba2c1dfa5bfc01\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+60
+61    <uses-permission android:name="com.afrikantasty.user.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+61-->[androidx.core:core:1.10.1] C:\Users\GE\.gradle\caches\transforms-3\dc5b1733b493234eecba2c1dfa5bfc01\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+61-->[androidx.core:core:1.10.1] C:\Users\GE\.gradle\caches\transforms-3\dc5b1733b493234eecba2c1dfa5bfc01\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+62
+63    <application
+64        android:name="android.app.Application"
+64-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:16:9-42
+65        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+65-->[androidx.core:core:1.10.1] C:\Users\GE\.gradle\caches\transforms-3\dc5b1733b493234eecba2c1dfa5bfc01\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+66        android:icon="@mipmap/ic_launcher"
+66-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:17:9-43
+67        android:label="Afrikan tasty" >
+67-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:15:9-38
+68        <activity
+68-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:18:9-39:20
+69            android:name="com.afrikantasty.user.MainActivity"
+69-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:19:13-41
+70            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+70-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:23:13-163
+71            android:exported="true"
+71-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:20:13-36
+72            android:hardwareAccelerated="true"
+72-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:24:13-47
+73            android:launchMode="singleTop"
+73-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:21:13-43
+74            android:screenOrientation="portrait"
+74-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:25:13-49
+75            android:theme="@style/LaunchTheme"
+75-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:22:13-47
+76            android:windowSoftInputMode="adjustResize" >
+76-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:26:13-55
+77
+78            <!--
+79                 Specifies an Android theme to apply to this Activity as soon as
+80                 the Android process has started. This theme is visible to the user
+81                 while the Flutter UI initializes. After that, this theme continues
+82                 to determine the Window background behind the Flutter UI.
+83            -->
+84            <meta-data
+84-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:31:13-34:17
+85                android:name="io.flutter.embedding.android.NormalTheme"
+85-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:32:15-70
+86                android:resource="@style/NormalTheme" />
+86-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:33:15-52
+87
+88            <intent-filter>
+88-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:35:13-38:29
+89                <action android:name="android.intent.action.MAIN" />
+89-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:36:17-68
+89-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:36:25-66
+90
+91                <category android:name="android.intent.category.LAUNCHER" />
+91-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:37:17-76
+91-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:37:27-74
+92            </intent-filter>
+93        </activity>
+94        <!--
+95             Don't delete the meta-data below.
+96             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+97        -->
+98        <meta-data
+98-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:42:9-44:33
+99            android:name="flutterEmbedding"
+99-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:43:13-44
+100            android:value="2" />
+100-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:44:13-30
+101        <meta-data
+101-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:45:9-47:55
+102            android:name="com.google.firebase.messaging.default_notification_channel_id"
+102-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:46:13-89
+103            android:value="high_importance_channel" />
+103-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:47:13-52
+104
+105        <!-- TODO: Add your Google Maps API key here -->
+106        <meta-data
+106-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:50:9-51:73
+107            android:name="com.google.android.geo.API_KEY"
+107-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:50:20-65
+108            android:value="AIzaSyB3S4fcKMcU-Ll9RSPkCiwdk1jXPmrTC_c" />
+108-->D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\android\app\src\main\AndroidManifest.xml:51:16-71
+109
+110        <service
+110-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-19:72
+111            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+111-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-107
+112            android:exported="false"
+112-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+113            android:permission="android.permission.BIND_JOB_SERVICE" />
+113-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-69
+114        <service
+114-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-26:19
+115            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+115-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-97
+116            android:exported="false" >
+116-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-37
+117            <intent-filter>
+117-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-25:29
+118                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+118-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:17-78
+118-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:25-75
+119            </intent-filter>
+120        </service>
+121
+122        <receiver
+122-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-35:20
+123            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+123-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-98
+124            android:exported="true"
+124-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-36
+125            android:permission="com.google.android.c2dm.permission.SEND" >
+125-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-73
+126            <intent-filter>
+126-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-34:29
+127                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+127-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:17-81
+127-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:25-78
+128            </intent-filter>
+129        </receiver>
+130
+131        <service
+131-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:37:9-41:19
+132            android:name="com.google.firebase.components.ComponentDiscoveryService"
+132-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:37:18-89
+133            android:directBootAware="true"
+133-->[com.google.firebase:firebase-common:20.4.2] C:\Users\GE\.gradle\caches\transforms-3\ff241421ec055419c5b025100b784cf6\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+134            android:exported="false" >
+134-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:56:13-37
+135            <meta-data
+135-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-40:85
+136                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+136-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:39:17-128
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:40:17-82
+138            <meta-data
+138-->[:firebase_core] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+139                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+139-->[:firebase_core] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[:firebase_core] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+141            <meta-data
+141-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:57:13-59:85
+142                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+142-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:58:17-122
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:59:17-82
+144            <meta-data
+144-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:60:13-62:85
+145                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+145-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:61:17-119
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:62:17-82
+147            <meta-data
+147-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\GE\.gradle\caches\transforms-3\ec908ab67f3394c75f41646a892892c9\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+148                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+148-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\GE\.gradle\caches\transforms-3\ec908ab67f3394c75f41646a892892c9\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\GE\.gradle\caches\transforms-3\ec908ab67f3394c75f41646a892892c9\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\GE\.gradle\caches\transforms-3\1a5f54448db9f0a7948615c15078ceb2\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+151                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+151-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\GE\.gradle\caches\transforms-3\1a5f54448db9f0a7948615c15078ceb2\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\GE\.gradle\caches\transforms-3\1a5f54448db9f0a7948615c15078ceb2\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\GE\.gradle\caches\transforms-3\1a5f54448db9f0a7948615c15078ceb2\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+154                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+154-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\GE\.gradle\caches\transforms-3\1a5f54448db9f0a7948615c15078ceb2\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\GE\.gradle\caches\transforms-3\1a5f54448db9f0a7948615c15078ceb2\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+156            <meta-data
+156-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\GE\.gradle\caches\transforms-3\3da6ab2327da82fd2f2824d16876861a\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+157                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+157-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\GE\.gradle\caches\transforms-3\3da6ab2327da82fd2f2824d16876861a\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\GE\.gradle\caches\transforms-3\3da6ab2327da82fd2f2824d16876861a\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+159            <meta-data
+159-->[com.google.firebase:firebase-common:20.4.2] C:\Users\GE\.gradle\caches\transforms-3\ff241421ec055419c5b025100b784cf6\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+160                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+160-->[com.google.firebase:firebase-common:20.4.2] C:\Users\GE\.gradle\caches\transforms-3\ff241421ec055419c5b025100b784cf6\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.firebase:firebase-common:20.4.2] C:\Users\GE\.gradle\caches\transforms-3\ff241421ec055419c5b025100b784cf6\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+162            <meta-data
+162-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\GE\.gradle\caches\transforms-3\3c79e5c9c586da43f9b10276651ab3f9\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+163                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+163-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\GE\.gradle\caches\transforms-3\3c79e5c9c586da43f9b10276651ab3f9\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\GE\.gradle\caches\transforms-3\3c79e5c9c586da43f9b10276651ab3f9\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+165        </service>
+166
+167        <provider
+167-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:43:9-47:38
+168            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+168-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-102
+169            android:authorities="com.afrikantasty.user.flutterfirebasemessaginginitprovider"
+169-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-88
+170            android:exported="false"
+170-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-37
+171            android:initOrder="99" />
+171-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-35
+172
+173        <service
+173-->[:geolocator_android] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:56
+174            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+174-->[:geolocator_android] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-77
+175            android:enabled="true"
+175-->[:geolocator_android] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-35
+176            android:exported="false"
+176-->[:geolocator_android] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+177            android:foregroundServiceType="location" />
+177-->[:geolocator_android] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-53
+178
+179        <provider
+179-->[:image_picker_android] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+180            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+180-->[:image_picker_android] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-82
+181            android:authorities="com.afrikantasty.user.flutter.image_provider"
+181-->[:image_picker_android] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-74
+182            android:exported="false"
+182-->[:image_picker_android] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+183            android:grantUriPermissions="true" >
+183-->[:image_picker_android] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+184            <meta-data
+184-->[:image_picker_android] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:75
+185                android:name="android.support.FILE_PROVIDER_PATHS"
+185-->[:image_picker_android] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+186                android:resource="@xml/flutter_image_picker_file_paths" />
+186-->[:image_picker_android] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-72
+187        </provider>
+188
+189        <receiver
+189-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-18:40
+190            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+190-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-97
+191            android:exported="false" />
+191-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+192        <receiver
+192-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-28:20
+193            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+193-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-101
+194            android:exported="false" >
+194-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-37
+195            <intent-filter>
+195-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-27:29
+196                <action android:name="android.intent.action.BOOT_COMPLETED" />
+196-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:23:17-79
+196-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:23:25-76
+197                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+197-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:17-84
+197-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:25-81
+198                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+198-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:17-82
+198-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:25-79
+199                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+199-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:17-82
+199-->[:flutter_local_notifications] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:25-79
+200            </intent-filter>
+201        </receiver>
+202
+203        <activity
+203-->[:url_launcher_android] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+204            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+204-->[:url_launcher_android] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+205            android:exported="false"
+205-->[:url_launcher_android] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+206            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+206-->[:url_launcher_android] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+207        <activity
+207-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-20:47
+208            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+208-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-104
+209            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+209-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-137
+210            android:exported="false"
+210-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-37
+211            android:theme="@style/AppTheme" />
+211-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-44
+212        <activity
+212-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-24:55
+213            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+213-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-112
+214            android:exported="false"
+214-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-37
+215            android:theme="@style/ThemeTransparent" />
+215-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-52
+216        <activity
+216-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-28:55
+217            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+217-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-106
+218            android:exported="false"
+218-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-37
+219            android:theme="@style/ThemeTransparent" />
+219-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-52
+220        <activity
+220-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:29:9-33:55
+221            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+221-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-126
+222            android:exported="false"
+222-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-37
+223            android:launchMode="singleInstance"
+223-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-48
+224            android:theme="@style/ThemeTransparent" />
+224-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:33:13-52
+225        <activity
+225-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-38:55
+226            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+226-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-120
+227            android:exported="false"
+227-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-37
+228            android:launchMode="singleInstance"
+228-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-48
+229            android:theme="@style/ThemeTransparent" />
+229-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-52
+230
+231        <receiver
+231-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-43:40
+232            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+232-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-111
+233            android:enabled="true"
+233-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-35
+234            android:exported="false" />
+234-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-37
+235
+236        <meta-data
+236-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:45:9-47:36
+237            android:name="io.flutter.embedded_views_preview"
+237-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-61
+238            android:value="true" />
+238-->[:flutter_inappwebview] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-33
+239
+240        <receiver
+240-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:29:9-40:20
+241            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+241-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:30:13-78
+242            android:exported="true"
+242-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:31:13-36
+243            android:permission="com.google.android.c2dm.permission.SEND" >
+243-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:32:13-73
+244            <intent-filter>
+244-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-34:29
+245                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+245-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:17-81
+245-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:25-78
+246            </intent-filter>
+247
+248            <meta-data
+248-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:37:13-39:40
+249                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+249-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:38:17-92
+250                android:value="true" />
+250-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:39:17-37
+251        </receiver>
+252        <!--
+253             FirebaseMessagingService performs security checks at runtime,
+254             but set to not exported to explicitly avoid allowing another app to call it.
+255        -->
+256        <service
+256-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:46:9-53:19
+257            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+257-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:47:13-82
+258            android:directBootAware="true"
+258-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:48:13-43
+259            android:exported="false" >
+259-->[com.google.firebase:firebase-messaging:23.3.1] C:\Users\GE\.gradle\caches\transforms-3\8f710e78c07baae9dafd59b0f156c242\transformed\jetified-firebase-messaging-23.3.1\AndroidManifest.xml:49:13-37
+260            <intent-filter android:priority="-500" >
+260-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-25:29
+261                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+261-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:17-78
+261-->[:firebase_messaging] D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:25-75
+262            </intent-filter>
+263        </service>
+264
+265        <provider
+265-->[com.google.firebase:firebase-common:20.4.2] C:\Users\GE\.gradle\caches\transforms-3\ff241421ec055419c5b025100b784cf6\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+266            android:name="com.google.firebase.provider.FirebaseInitProvider"
+266-->[com.google.firebase:firebase-common:20.4.2] C:\Users\GE\.gradle\caches\transforms-3\ff241421ec055419c5b025100b784cf6\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+267            android:authorities="com.afrikantasty.user.firebaseinitprovider"
+267-->[com.google.firebase:firebase-common:20.4.2] C:\Users\GE\.gradle\caches\transforms-3\ff241421ec055419c5b025100b784cf6\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+268            android:directBootAware="true"
+268-->[com.google.firebase:firebase-common:20.4.2] C:\Users\GE\.gradle\caches\transforms-3\ff241421ec055419c5b025100b784cf6\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+269            android:exported="false"
+269-->[com.google.firebase:firebase-common:20.4.2] C:\Users\GE\.gradle\caches\transforms-3\ff241421ec055419c5b025100b784cf6\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+270            android:initOrder="100" />
+270-->[com.google.firebase:firebase-common:20.4.2] C:\Users\GE\.gradle\caches\transforms-3\ff241421ec055419c5b025100b784cf6\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+271
+272        <activity
+272-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\GE\.gradle\caches\transforms-3\0de065af7badb72802aa8ca21fd7b493\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:23:9-27:75
+273            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+273-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\GE\.gradle\caches\transforms-3\0de065af7badb72802aa8ca21fd7b493\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:24:13-93
+274            android:excludeFromRecents="true"
+274-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\GE\.gradle\caches\transforms-3\0de065af7badb72802aa8ca21fd7b493\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:25:13-46
+275            android:exported="false"
+275-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\GE\.gradle\caches\transforms-3\0de065af7badb72802aa8ca21fd7b493\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:26:13-37
+276            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+276-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\GE\.gradle\caches\transforms-3\0de065af7badb72802aa8ca21fd7b493\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:27:13-72
+277        <!--
+278            Service handling Google Sign-In user revocation. For apps that do not integrate with
+279            Google Sign-In, this service will never be started.
+280        -->
+281        <service
+281-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\GE\.gradle\caches\transforms-3\0de065af7badb72802aa8ca21fd7b493\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:33:9-37:51
+282            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+282-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\GE\.gradle\caches\transforms-3\0de065af7badb72802aa8ca21fd7b493\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:34:13-89
+283            android:exported="true"
+283-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\GE\.gradle\caches\transforms-3\0de065af7badb72802aa8ca21fd7b493\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:35:13-36
+284            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+284-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\GE\.gradle\caches\transforms-3\0de065af7badb72802aa8ca21fd7b493\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:36:13-107
+285            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+285-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\GE\.gradle\caches\transforms-3\0de065af7badb72802aa8ca21fd7b493\transformed\jetified-play-services-auth-20.4.0\AndroidManifest.xml:37:13-48
+286        <uses-library
+286-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\GE\.gradle\caches\transforms-3\954d8db75cef988aba1a478993bcfeb4\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+287            android:name="org.apache.http.legacy"
+287-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\GE\.gradle\caches\transforms-3\954d8db75cef988aba1a478993bcfeb4\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+288            android:required="false" />
+288-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\GE\.gradle\caches\transforms-3\954d8db75cef988aba1a478993bcfeb4\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+289
+290        <activity
+290-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\GE\.gradle\caches\transforms-3\da312ef8a5f401b5e60496712c78ecf7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+291            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+291-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\GE\.gradle\caches\transforms-3\da312ef8a5f401b5e60496712c78ecf7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+292            android:exported="false"
+292-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\GE\.gradle\caches\transforms-3\da312ef8a5f401b5e60496712c78ecf7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+293            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+293-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\GE\.gradle\caches\transforms-3\da312ef8a5f401b5e60496712c78ecf7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+294
+295        <meta-data
+295-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\GE\.gradle\caches\transforms-3\4ef8e7d9a60cff636871604cf50e4184\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+296            android:name="com.google.android.gms.version"
+296-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\GE\.gradle\caches\transforms-3\4ef8e7d9a60cff636871604cf50e4184\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+297            android:value="@integer/google_play_services_version" />
+297-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\GE\.gradle\caches\transforms-3\4ef8e7d9a60cff636871604cf50e4184\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+298
+299        <provider
+299-->[androidx.emoji2:emoji2:1.2.0] C:\Users\GE\.gradle\caches\transforms-3\ade9680713ae525080d0c034ed182a83\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+300            android:name="androidx.startup.InitializationProvider"
+300-->[androidx.emoji2:emoji2:1.2.0] C:\Users\GE\.gradle\caches\transforms-3\ade9680713ae525080d0c034ed182a83\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+301            android:authorities="com.afrikantasty.user.androidx-startup"
+301-->[androidx.emoji2:emoji2:1.2.0] C:\Users\GE\.gradle\caches\transforms-3\ade9680713ae525080d0c034ed182a83\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+302            android:exported="false" >
+302-->[androidx.emoji2:emoji2:1.2.0] C:\Users\GE\.gradle\caches\transforms-3\ade9680713ae525080d0c034ed182a83\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+303            <meta-data
+303-->[androidx.emoji2:emoji2:1.2.0] C:\Users\GE\.gradle\caches\transforms-3\ade9680713ae525080d0c034ed182a83\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+304                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+304-->[androidx.emoji2:emoji2:1.2.0] C:\Users\GE\.gradle\caches\transforms-3\ade9680713ae525080d0c034ed182a83\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+305                android:value="androidx.startup" />
+305-->[androidx.emoji2:emoji2:1.2.0] C:\Users\GE\.gradle\caches\transforms-3\ade9680713ae525080d0c034ed182a83\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+306            <meta-data
+306-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\GE\.gradle\caches\transforms-3\26591602307cad9a6b77d002f77e4f11\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+307                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+307-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\GE\.gradle\caches\transforms-3\26591602307cad9a6b77d002f77e4f11\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+308                android:value="androidx.startup" />
+308-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\GE\.gradle\caches\transforms-3\26591602307cad9a6b77d002f77e4f11\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+309            <meta-data
+309-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+310                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+310-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+311                android:value="androidx.startup" />
+311-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+312        </provider>
+313
+314        <uses-library
+314-->[androidx.window:window:1.0.0-beta04] C:\Users\GE\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+315            android:name="androidx.window.extensions"
+315-->[androidx.window:window:1.0.0-beta04] C:\Users\GE\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+316            android:required="false" />
+316-->[androidx.window:window:1.0.0-beta04] C:\Users\GE\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+317        <uses-library
+317-->[androidx.window:window:1.0.0-beta04] C:\Users\GE\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+318            android:name="androidx.window.sidecar"
+318-->[androidx.window:window:1.0.0-beta04] C:\Users\GE\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+319            android:required="false" />
+319-->[androidx.window:window:1.0.0-beta04] C:\Users\GE\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+320
+321        <service
+321-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\GE\.gradle\caches\transforms-3\13e8d01da674715e0e67175b54957afd\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+322            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+322-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\GE\.gradle\caches\transforms-3\13e8d01da674715e0e67175b54957afd\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+323            android:exported="false" >
+323-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\GE\.gradle\caches\transforms-3\13e8d01da674715e0e67175b54957afd\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+324            <meta-data
+324-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\GE\.gradle\caches\transforms-3\13e8d01da674715e0e67175b54957afd\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+325                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+325-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\GE\.gradle\caches\transforms-3\13e8d01da674715e0e67175b54957afd\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+326                android:value="cct" />
+326-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\GE\.gradle\caches\transforms-3\13e8d01da674715e0e67175b54957afd\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+327        </service>
+328        <service
+328-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\GE\.gradle\caches\transforms-3\031e785ae6f8e945299066fed89d4d4e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+329            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+329-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\GE\.gradle\caches\transforms-3\031e785ae6f8e945299066fed89d4d4e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+330            android:exported="false"
+330-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\GE\.gradle\caches\transforms-3\031e785ae6f8e945299066fed89d4d4e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+331            android:permission="android.permission.BIND_JOB_SERVICE" >
+331-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\GE\.gradle\caches\transforms-3\031e785ae6f8e945299066fed89d4d4e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+332        </service>
+333
+334        <receiver
+334-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\GE\.gradle\caches\transforms-3\031e785ae6f8e945299066fed89d4d4e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+335            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+335-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\GE\.gradle\caches\transforms-3\031e785ae6f8e945299066fed89d4d4e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+336            android:exported="false" />
+336-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\GE\.gradle\caches\transforms-3\031e785ae6f8e945299066fed89d4d4e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+337        <receiver
+337-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+338            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+338-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+339            android:directBootAware="false"
+339-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+340            android:enabled="true"
+340-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+341            android:exported="true"
+341-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+342            android:permission="android.permission.DUMP" >
+342-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+343            <intent-filter>
+343-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+344                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+344-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+344-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+345            </intent-filter>
+346            <intent-filter>
+346-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+347                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+347-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+347-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+348            </intent-filter>
+349            <intent-filter>
+349-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+350                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+350-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+350-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+351            </intent-filter>
+352            <intent-filter>
+352-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+353                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+353-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+353-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\GE\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+354            </intent-filter>
+355        </receiver>
+356    </application>
+357
+358</manifest>

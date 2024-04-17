@@ -1,0 +1,13 @@
+io.github.zeshuaro.google_api_headers-jetified-window-java-1.0.0-beta04-0 C:\Users\GE\.gradle\caches\transforms-3\29517b5ba912f9689907c39dbb352d3a\transformed\jetified-window-java-1.0.0-beta04\res
+io.github.zeshuaro.google_api_headers-jetified-window-1.0.0-beta04-1 C:\Users\GE\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\res
+io.github.zeshuaro.google_api_headers-core-1.6.0-2 C:\Users\GE\.gradle\caches\transforms-3\6d3237bc319e7b967918f32c402a8d45\transformed\core-1.6.0\res
+io.github.zeshuaro.google_api_headers-jetified-annotation-experimental-1.1.0-3 C:\Users\GE\.gradle\caches\transforms-3\f0ced427c4d770421a04aafb9ab9aa25\transformed\jetified-annotation-experimental-1.1.0\res
+io.github.zeshuaro.google_api_headers-main-4 C:\Users\GE\AppData\Local\Pub\Cache\hosted\pub.dev\google_api_headers-1.6.0\android\src\main\res
+io.github.zeshuaro.google_api_headers-release-5 C:\Users\GE\AppData\Local\Pub\Cache\hosted\pub.dev\google_api_headers-1.6.0\android\src\release\res
+io.github.zeshuaro.google_api_headers-pngs-6 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\google_api_headers\generated\res\pngs\release
+io.github.zeshuaro.google_api_headers-resValues-7 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\google_api_headers\generated\res\resValues\release
+io.github.zeshuaro.google_api_headers-rs-8 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\google_api_headers\generated\res\rs\release
+io.github.zeshuaro.google_api_headers-mergeReleaseResources-9 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\google_api_headers\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.github.zeshuaro.google_api_headers-mergeReleaseResources-10 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\google_api_headers\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.github.zeshuaro.google_api_headers-merged_res-11 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\google_api_headers\intermediates\merged_res\release
+io.github.zeshuaro.google_api_headers-packaged_res-12 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\package_info_plus\intermediates\packaged_res\release

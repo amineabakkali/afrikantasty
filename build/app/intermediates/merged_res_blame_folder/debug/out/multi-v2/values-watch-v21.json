@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.afrikantasty.user.app-mergeDebugResources-38:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\GE\\.gradle\\caches\\transforms-3\\086eb21eaacec071a008937e20823ed0\\transformed\\appcompat-1.5.1\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+dev.fluttercommunity.plus.packageinfo.package_info_plus-jetified-window-java-1.0.0-beta04-0 C:\Users\GE\.gradle\caches\transforms-3\29517b5ba912f9689907c39dbb352d3a\transformed\jetified-window-java-1.0.0-beta04\res
+dev.fluttercommunity.plus.packageinfo.package_info_plus-jetified-window-1.0.0-beta04-1 C:\Users\GE\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\res
+dev.fluttercommunity.plus.packageinfo.package_info_plus-core-1.6.0-2 C:\Users\GE\.gradle\caches\transforms-3\6d3237bc319e7b967918f32c402a8d45\transformed\core-1.6.0\res
+dev.fluttercommunity.plus.packageinfo.package_info_plus-jetified-annotation-experimental-1.1.0-3 C:\Users\GE\.gradle\caches\transforms-3\f0ced427c4d770421a04aafb9ab9aa25\transformed\jetified-annotation-experimental-1.1.0\res
+dev.fluttercommunity.plus.packageinfo.package_info_plus-main-4 C:\Users\GE\AppData\Local\Pub\Cache\hosted\pub.dev\package_info_plus-4.2.0\android\src\main\res
+dev.fluttercommunity.plus.packageinfo.package_info_plus-release-5 C:\Users\GE\AppData\Local\Pub\Cache\hosted\pub.dev\package_info_plus-4.2.0\android\src\release\res
+dev.fluttercommunity.plus.packageinfo.package_info_plus-pngs-6 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\package_info_plus\generated\res\pngs\release
+dev.fluttercommunity.plus.packageinfo.package_info_plus-resValues-7 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\package_info_plus\generated\res\resValues\release
+dev.fluttercommunity.plus.packageinfo.package_info_plus-rs-8 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\package_info_plus\generated\res\rs\release
+dev.fluttercommunity.plus.packageinfo.package_info_plus-mergeReleaseResources-9 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\package_info_plus\intermediates\incremental\release\mergeReleaseResources\merged.dir
+dev.fluttercommunity.plus.packageinfo.package_info_plus-mergeReleaseResources-10 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\package_info_plus\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+dev.fluttercommunity.plus.packageinfo.package_info_plus-merged_res-11 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\package_info_plus\intermediates\merged_res\release

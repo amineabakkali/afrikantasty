@@ -1,0 +1,14 @@
+io.flutter.plugins.urllauncher.url_launcher_android-jetified-window-java-1.0.0-beta04-0 C:\Users\GE\.gradle\caches\transforms-3\29517b5ba912f9689907c39dbb352d3a\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.urllauncher.url_launcher_android-browser-1.5.0-1 C:\Users\GE\.gradle\caches\transforms-3\3c7973c2070bee0cf18d3020e2fe061d\transformed\browser-1.5.0\res
+io.flutter.plugins.urllauncher.url_launcher_android-jetified-window-1.0.0-beta04-2 C:\Users\GE\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.urllauncher.url_launcher_android-lifecycle-runtime-2.3.1-3 C:\Users\GE\.gradle\caches\transforms-3\88e4d9ae7c934ad1bebc2d2a96492df3\transformed\lifecycle-runtime-2.3.1\res
+io.flutter.plugins.urllauncher.url_launcher_android-jetified-annotation-experimental-1.3.0-4 C:\Users\GE\.gradle\caches\transforms-3\c985eeb2ea96011f54476e70839c68af\transformed\jetified-annotation-experimental-1.3.0\res
+io.flutter.plugins.urllauncher.url_launcher_android-core-1.10.1-5 C:\Users\GE\.gradle\caches\transforms-3\dc5b1733b493234eecba2c1dfa5bfc01\transformed\core-1.10.1\res
+io.flutter.plugins.urllauncher.url_launcher_android-main-6 C:\Users\GE\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.2.0\android\src\main\res
+io.flutter.plugins.urllauncher.url_launcher_android-release-7 C:\Users\GE\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.2.0\android\src\release\res
+io.flutter.plugins.urllauncher.url_launcher_android-pngs-8 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\url_launcher_android\generated\res\pngs\release
+io.flutter.plugins.urllauncher.url_launcher_android-resValues-9 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\url_launcher_android\generated\res\resValues\release
+io.flutter.plugins.urllauncher.url_launcher_android-rs-10 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\url_launcher_android\generated\res\rs\release
+io.flutter.plugins.urllauncher.url_launcher_android-mergeReleaseResources-11 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\url_launcher_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.urllauncher.url_launcher_android-mergeReleaseResources-12 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\url_launcher_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.urllauncher.url_launcher_android-merged_res-13 D:\Amine\afrikantasty\customer-app-dar_30_03_2024\customer-app-dar\customer-app\build\url_launcher_android\intermediates\merged_res\release

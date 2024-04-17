@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "860641808224",
+    "project_id": "afrikan-tasty-app",
+    "storage_bucket": "afrikan-tasty-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860641808224:android:3a2535dea9996c2125d805",
+        "android_client_info": {
+          "package_name": "com.afrikantasty.user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2HihgrRwFqsnwFu8zNLGR0vzyZ2ddchQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
