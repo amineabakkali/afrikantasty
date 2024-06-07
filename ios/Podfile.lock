@@ -2,8 +2,8 @@ PODS:
   - connectivity (0.0.1):
     - Flutter
     - Reachability
-  - Firebase/CoreOnly (10.7.0):
-    - FirebaseCore (= 10.7.0)
+  - Firebase/CoreOnly (2.22.0):
+    - FirebaseCore (= 2.22.0)
   - Firebase/Messaging (10.7.0):
     - Firebase/CoreOnly
     - FirebaseMessaging (~> 10.7.0)
